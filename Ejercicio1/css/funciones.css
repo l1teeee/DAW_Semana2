@@ -1,0 +1,46 @@
+*{
+    margin:0;
+}
+
+body{
+    background-color: rgb(38, 36, 36);
+}
+
+h1{
+    text-align: center;
+    margin-top: 1vw;
+    color: aliceblue;
+}
+
+.metos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.abs{
+    margin:2vw 2vw  2vw 10vw;
+    width: 30%;
+    background-color: antiquewhite;
+    text-align: justify;
+    height: auto;
+    padding: 2vw;
+    border-radius: 15px;
+}
+
+.abs h2{
+    margin-bottom: 8px;
+}
+
+.abs #line{
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+#abs,#round,#round1,#ceil,#ceil1,#floor,#floor1,#random,#random1,#exp,#exp1,#log,#log1{
+    text-align: center;
+    margin-top: 2vw;
+    font-weight: bold;
+}
+
